@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinasi Wisata Indonesia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Destinasi Wisata Kabupaten Brebes</h1>
+         <p>Temukan Keindahan Pariwisata Nusantara</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Kaligua">Kaligua</a></li>
+            <li><a href="#Randusanga">Randusanga</a></li>
+            <li><a href="#Waduk Malahayu">Waduk Malahayu</a></li>
+            <li><a href="#Waduk Malahayu">Curug Ranto Canyon</a></li>
+        </ul>
+        <h1>Wisata di Daerah Kabupaten Brebes</h1>
+    <p>Daerah Brebes adalah tempat yang kaya akan keindahan alam dan budaya. Berikut beberapa tempat wisata yang Harus Anda kunjungi di Brebes:</p>
+    </nav>
+    <section id="1. Kaligua" class="destination">
+        <h2>Kaligua</h2>
+        <img src="https://sikidang.com/wp-content/uploads/alamat-dan-rute-lokasi-Agrowisata-Kaligua.jpg" alt="Argowisata kaligua">
+        <p>Kawasan Agrowisata Kaligua merupakan salah satu tempat wisata pilihan di Brebes. Ketinggian Agrowisata Kaligua sekitar 1.500 hingga 2.050 meter di atas permukaan laut dengan suhu udara sekitar 4 sampai 20 derajat Celcius. Agrowisata Kaligua menyajikan kawasan pesona kebun teh dengan udara yang segar..</p>
+    </section>
+    <section id="2. Randusanga" class="destination">
+        <h2>Randusanga</h2>
+        <img src="https://radarcbs.com/wp-content/uploads/2023/08/e0385327-43d1-45c8-9f9e-c6a15274062a.jpg" alt="Pantai Randusanga">
+        <p>Pantai Randusanga adalah adalah tempat yang cocok untuk bersantai dan menikmati pantai yang indah. Anda dapat berjemur di bawah matahari dan menikmati makanan lezat.</p>
+    </section>
+    <section id="3. Waduk Malahayu" class="destination">
+        <h2>Waduk Malahayu</h2>
+        <img src="https://dinbudpar.brebeskab.go.id/wp-content/uploads/2020/04/IMG_20190901_103926768.jpg" alt="Waduk Malahayu">
+        <p>Waduk Malahayu menjadi tempat wisata alam di Brebes yang rekomended untuk berakhir pekan maupun liburan panjang. Keindahan dan pesona alam yang disajikan Waduk Malahayu akan memanjakan perjalanan liburan anda dan keluarga tercinta.</p>
+    </section>
+    <section id="3. Curug Ranto Canyon" class="destination">
+        <h2>Curug Ranto Canyon</h2>
+        <img src="https://cdn.idntimes.com/content-images/community/2020/12/instabumiayu-bwdxybgfuvh-899b59f0f65acad798d392c407f4ab92-111e15c7c633556369418117afb5ec5d.jpg" alt="Curug Ranto Canyon">
+        <p>tempat wisata air terjun curug Ranto canyon merupakan salah satu tujuan wisata favorit khusunya bagi merkeka yang suka petualangan outdoor karena lkasinya menyatu dengan alam, pengunjung bisa melihat perkebunan sawah yang hijau, dengan suasanya menyejukan. untuk berenang Curug yang Eksotis dengan air yang bening dan dingin menyegarkan.</p>
+    <footer>
+        <p>&copy; 2023 Wisata Kabupaten Brebes</p>
+    </footer>
+</body>
+</html>
