@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pariwisata</title>
+    <style>
+         body{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .formulir-khusus {
+            background-color: lightblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulir Informasi Pariwisata</h2>
+    <!-- Formulir dengan kelas khusus -->
+    <form action="Tugas2.html" method="post" class="Tugas2.h">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="destinasi">Destinasi Wisata Pilihan:</label>
+        <select id="destinasi" name="destinasi">
+            <option value="Kaligua">kaligua</option>
+            <option value="Randusanga">Randusanga</option>
+            <option value="waduk Malahayu">waduk malahayu</option>
+            <option value="mangrove">mangrove</option>
+            <option value="mangrove">ciblon-waterboom</option>
+        </select><br><br>
+
+        <label for="tanggal">Tanggal Perjalanan:</label>
+        <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+        <label for="jumlah_orang">Jumlah Orang:</label>
+        <input type="number" id="jumlah_orang" name="jumlah_orang" min="1" required><br><br>
+
+        <label for="pesan">Pesan Tambahan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
